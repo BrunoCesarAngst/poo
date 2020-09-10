@@ -1,0 +1,32 @@
+O React é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário. Ela permite compor interfaces de usuário complexas a partir de pequenas e isolados trechos de códigos chamados “componentes”.
+Dizem as más línguas que o React é a biblioteca JavaScript mais popular para criar interfaces com o usuário. (UI) Confira aqui.
+
+O coração do React são os componentes que pode ser considerado um pedaço de uma interface com o usuário.
+
+Ao criar aplicações com React você vai criar um bocado de componentes independentes e reutilizáveis para compor UI complexas.
+
+Uma aplicação React possui pelo menos um componente que é conhecido como o componente raiz ou root que contém outros componentes filhos.
+
+Uma aplicação React é essencialmente uma árvore de componentes.
+	
+
+Em termos de implementação um componente é implementando como uma classe JavaScript que possui os métodos :
+
+    State() - representa os dados que desejamos exibir quando o componente for renderizado;
+    Render() - responsável por descrever como a interface do usuário vai parecer. A saida deste método é um elemento React que é apenas JavaScript simples que mapeia o DOM.
+
+Assim React mantém uma representação mais leve do DOM em memória que é referido como virtual DOM que é leve e fácil de criar.
+
+Nota: O DOM (Document Object Model) é uma interface que representa como os documentos HTML e XML são lidos pelo seu navegador.
+
+Quando o estado de um componente é alterado temos um novo elemento React; o React vai então comparar este elemento com o anterior e descobrir o que mudou e então ele vai atualizar a parte relativa do DOM real para manter a sincronia com o DOM virtual. Dessa forma não precisamos tratar com a API do DOM no navegador.
+
+Simplesmente alteramos o estado de um componente e o React automaticamente atualiza o DOM para equiparar o estado.
+
+É por este motivo que a biblioteca se chama React, pois quando estado muda React essencialmente reaje a esta mudança e atualiza o DOM.
+
+Assim, o React é uma biblioteca e não um framework (como o Angular), e, seu papel é a atuar na criação da interface com o usuário(UI), por isso ele possui uma API pequena. Então ao criar aplicações com React talvez precisaremos usar outras bibliotecas para realizar tarefas como roteamento, serviços HTTP, etc., pois isso não é o foco do React.
+
+Para concluir temos que o React ajuda você a criar aplicativos da Web dinâmicos atualizando automaticamente o DOM quando o seu modelo de dados é alterado. Além de atualizar o DOM, o React permite que você interaja com a interface combinando, expandindo e movimentando elementos autocontidos, até atingir o design correto. Estes elementos auto-contidos são chamados componentes.
+
+Após essa introdução vamos partir para configurar o ambiente de trabalho para usar o React na prática.
